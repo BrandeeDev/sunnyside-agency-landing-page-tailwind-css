@@ -4,7 +4,7 @@ import twitter from "../images/icon-twitter.svg";
 import pint from "../images/icon-pinterest.svg";
 import picture from "./Picture";
 const Footer =()=>{
-    return<div className="w-full flex flex-col justify-center  bg-[#90D4C6] ">
+    return<div className="w-full flex flex-col justify-center  bg-[#90D4C6] lg:h-[350px]">
         <div className="mt-[64px] mb-[80px] mx-[39px] flex flex-col justify-between items-center lg:mx-[572px] lg:my-[72px]">
             <div className="py-12 ">
                 <svg className=" fill-[#2C7566] w-[170px] h-[33px] " viewBox="0 0 124 24" xmlns="http://www.w3.org/2000/svg">

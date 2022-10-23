@@ -6,7 +6,7 @@ const Box = (props: { title: string, description: string, color: string ,order:s
     //     }
     //     return "";
     // }
-    const divClass=`flex  flex-col justify-center items-center text-center mx-6 my-[64px] lg:h-full lg:w-[445px]  lg:mx-[110px] lg:my-[157px] lg:items-start  ${props.order}`
+    const divClass=`flex  flex-col bg-white justify-center items-center text-center mx-6 my-[64px] lg:h-full lg:w-[445px]  lg:mx-[110px] lg:my-[157px] lg:items-start  ${props.order}`
     return (
 
         <div className={divClass}>
